@@ -4,7 +4,7 @@
 </div>
 <div class="form-group">
     <label for="name">Mail</label>
-    <input type="text" class="form-control" required id="mail" name="mail" value="{{$mail?? null}}">
+    <input type="email" class="form-control" required id="mail" name="mail" value="{{$mail?? null}}">
 </div>
 <div class="form-group">
     <label for="name">URL</label>
